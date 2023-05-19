@@ -1,6 +1,10 @@
 const { MOVEMENTS, MESSAGES } = require("./constants");
 let connection;
 
+/**
+ * Matches input keys to game functionality.
+ * @param {string} key - key(s) pressed
+ */
 const handleUserInput = function(key) {
   if (key === '\u0003') {
     process.exit();
@@ -11,6 +15,11 @@ const handleUserInput = function(key) {
   }
 };
 
+/**
+ * Setup interface to handle user input from stdin.
+ * @param {Socket} conn - our Socket connection, allowing us to write to the
+ *                        server in handleUserInput
+ */
 const setupInput = function(conn) {
   connection = conn;
   const stdin = process.stdin;
