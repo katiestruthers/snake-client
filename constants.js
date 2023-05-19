@@ -1,6 +1,5 @@
-const IP = "localhost";
+const IP = 'localhost';
 const PORT = 50541;
-const ENCODING = 'utf-8';
 
 const MOVEMENTS = {
   w: 'up',
@@ -18,7 +17,6 @@ const MESSAGES = {
 module.exports = {
   IP,
   PORT,
-  ENCODING,
   MOVEMENTS,
   MESSAGES
 };

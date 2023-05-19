@@ -1,4 +1,4 @@
-const { ENCODING, MOVEMENTS, MESSAGES } = require("./constants");
+const { MOVEMENTS, MESSAGES } = require("./constants");
 let connection;
 
 const handleUserInput = function(key) {
@@ -15,7 +15,7 @@ const setupInput = function(conn) {
   connection = conn;
   const stdin = process.stdin;
   stdin.setRawMode(true);
-  stdin.setEncoding(ENCODING);
+  stdin.setEncoding("utf-8");
   stdin.resume();
   stdin.on("data", handleUserInput);
   return stdin;
