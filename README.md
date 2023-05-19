@@ -8,8 +8,8 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-![Move the snake and send messages by using keys](/screenshots/gameplay-screenshot-1.png)
-![Add additional players](/screenshots/gameplay-screenshot-1.png)
+![Screenshot of moving the snake and sending in-game messsages.](/screenshots/gameplay-screenshot-1.png)
+![Screenshot of adding additional players to the game.](/screenshots/gameplay-screenshot-2.png)
 
 
 ## Getting Started
